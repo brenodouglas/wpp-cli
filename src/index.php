@@ -17,5 +17,4 @@ $application->add(new Confirm());
 $application->add($registerCommand);
 $application->add(new SendMessage());
 $application->add(new GetMessage());
-$application->setDefaultCommand($registerCommand->getName());
 $application->run();
