@@ -4,7 +4,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 use Whatsapp\Command\Confirm;
 use Whatsapp\Command\Register;
 use Whatsapp\Command\SendMessage;
-use Whatsapp\command\GetMessage;
+use Whatsapp\Command\GetMessage;
 use Symfony\Component\Console\Application;
 
 $dotenv = new Dotenv\Dotenv(__DIR__."/..");
