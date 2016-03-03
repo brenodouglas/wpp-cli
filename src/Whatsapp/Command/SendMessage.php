@@ -15,7 +15,7 @@ class SendMessage extends Command
     {
         $this
             ->setName('whatsapp:message')
-            ->setDescription('Código de confirmação');
+            ->setDescription('Enviar mensagem');
         ;
     }
 
